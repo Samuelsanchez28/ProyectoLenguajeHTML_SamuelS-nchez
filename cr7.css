@@ -1,0 +1,446 @@
+/* Reset básico */
+*{
+    margin: 0vh;
+    padding: 0vh;
+    box-sizing: content-box ;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #000000;
+    color: #000000;
+}
+
+/* Header con botones de navegación */
+header {
+    
+    background-color: #000;
+    color: #fff;
+    padding: 2vh;
+    position:absolute;
+    top: 0vh;
+    left: 0vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+
+header h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left: 0vh;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin-right: 3rem;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0px;
+}
+
+nav ul li a {
+    color: #ddb0b0;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+nav ul li a:hover {
+    color: #ffc400;
+}
+
+/* Portada */
+.portada {
+    background-image: url('https://images.ecestaticos.com/nllIBurR7zeMDjwghRIGkzX8tlE=/0x154:2271x1433/1600x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F5c3%2F680%2Fd14%2F5c3680d143e0375062f8a8de42185794.jpg'); /* Reemplaza con la imagen de la portada */
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 680vh;
+    margin: 0%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.portada-content {
+    color: #fff;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+.portada h2 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+
+.portada p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+
+  body {
+    height: 100%;
+    margin: 0vh;
+    background: #162944;
+  }
+.boton-portada:hover {
+    color: #000000;
+    background-color: rgb(190, 202, 16);
+    border: 2px solid rgb(213, 228, 13);
+    border-radius: 0px;
+    padding: 18px 36px;
+    display: inline-block;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 17px;
+    letter-spacing: 4px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #D80286;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+  }
+  
+
+/* Hero */
+.hero {
+    background-image: url('https://www.google.es/url?sa=i&url=https%3A%2F%2Fwww.tudn.com%2Ffutbol%2Fpara-los-libros-cr7-rompio-dos-records-ante-luxemburgo-video&psig=AOvVaw2QWMJMmbNgwV27JpcEu-tU&ust=1732141046009000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKiWzrW26YkDFQAAAAAdAAAAABAE'); /* Imagen del banner de la tienda */
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+    margin-top: 70px; /* Espacio para el header */
+}
+
+.hero h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.5rem;
+}
+
+/* Productos */
+/* Estilo general */
+body {
+    background-color: #ffffff; 
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center; 
+}
+
+header {
+    margin: 0;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #444;
+}
+
+p {
+    font-size: 18px;
+    color: #666;
+}
+
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); 
+    gap: 50px; 
+    padding: 0vh;
+    max-width: 900px; 
+    margin: 0 auto; 
+    text-align: center;
+}
+
+
+.product-button {
+    text-decoration: firebrick; 
+    color: black; 
+    display: block;
+    border-radius: 10px; 
+    overflow: hidden; 
+    box-shadow: 4px 6px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    background-color: #f9f9f9;
+}
+
+.product-button:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); 
+    border: 2px; #000;
+}
+
+
+.product-image {
+    width: 100%; 
+    height: 250px; 
+    object-fit: cover; 
+    border-bottom: 6px solid #0c0c0c;
+    border: 2px; #000; 
+}
+
+
+.product-button p {
+    margin: 20px 0 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #444;
+    border: 7px; #000;
+}
+
+
+@media (max-width: 768px) {
+    .product-button p {
+        font-size: 16px;
+    }
+    .product-image {
+        height: 200px; 
+    }
+}
+
+
+/* Contacto */
+.contacto {
+    padding: 20%;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.contacto h2 {
+    font-size: 7rem;
+    margin-bottom: 2.9rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+    margin-top: 10px;
+    font-size: 1rem;
+}
+
+form input, form textarea {
+    width: 80%;
+    padding: 0.5%;
+    margin-top: 5px;
+    border: 2px solid #ccc
+}
+
+redessociale
+/* Sección de redes sociales */
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 2.5rem;
+}
+
+.item a{
+    text-decoration: none;
+    width: 6.8rem;
+    height: 4.8rem;
+    background-color: #f0faff;
+    border-radius: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    border: 3px solid #f0faff;
+    overflow: hidden;
+}
+
+.item a::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    scale: 1 0;
+    transform-origin: bottom;
+    transition: scale 0.5s ease;
+    background: var(--bg-color);
+}
+
+.item:hover a::before{
+    scale: 1 1;
+}
+
+.icon {
+    font-size: 2rem;
+    color: #031926;
+    transition: 0.5s ease;
+    z-index: 2;
+}
+
+.item a:hover .icon{
+    color: #f0faff;
+    transform: rotateX(360deg) scale(1.30);
+}
+
+.item:nth-child(1){
+    --bg-color: linear-gradient(to bottom right, #f9ce34, #ee2a7b, #6228d7);
+}
+
+.item:nth-child(2){
+    --bg-color: #095cf5;
+}
+
+.item:nth-child(3){
+    --bg-color: #ff0000;
+}
+
+.item:nth-child(4){
+    --bg-color: #000;
+}
+
+/* Estilo general para la página del carrito */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin-left: 1rem;
+    font-size: 1.8rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover,{
+    color: #ffc400;
+}
+
+.carrito {
+    padding: 50px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+}
+
+.tabla-carrito {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+
+.tabla-carrito th,
+.tabla-carrito td {
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.tabla-carrito th {
+    background-color: #000000;
+    color: white;
+}
+
+.tabla-carrito td button {
+    padding: 8px 12px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.tabla-carrito td button:hover {
+    background-color: #d32f2f;
+}
+
+.resumen-carrito {
+    text-align: right;
+    margin-top: 20px;
+}
+
+.resumen-carrito p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.btn-comprar {
+    padding: 10px 30px;
+    background-color: #162944;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+.btn-comprar:hover {
+    background-color: #ffc400;
+    color: #162944;
+}
+
+footer {
+    background-color: #000;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

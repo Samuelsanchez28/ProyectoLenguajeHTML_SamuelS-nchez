@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de Compras - CR7 Market</title>
+    <link rel="stylesheet" href="cr7.css"> 
+</head>
+<body>
+    <header>
+        <h1>Carrito de Compras</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="redessociales.html">Redes Sociales</a></li>
+                <li><a href="carrito.html" class="active">Carrito</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="carrito">
+        <h2>Tu carrito</h2>
+
+        <table class="tabla-carrito">
+            <thead>
+                <tr>
+                    <th>Producto</th>
+                    <th>Precio</th>
+                    <th>Cantidad</th>
+                    <th>Eliminar</th>
+                </tr>
+            </thead>
+            <tbody id="productos-carrito">
+                
+                <tr>
+                    <td>Producto 1</td>
+                    
+                    <td><button class="btn-eliminar">Eliminar</button></td>
+                </tr>
+                <tr>
+                    <td>Producto 2</td>
+                
+                    <td><button class="btn-eliminar">Eliminar</button></td>
+                </tr>
+            
+            </tbody>            
+        </table>
+        <div class="resumen-carrito">
+            <p><strong>Total:</strong> 0€</p>
+            <button class="btn-comprar">Comprar Ahora</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 CR7 Market. Todos los derechos reservados.</p>
+    </footer>
+
+   
+    <script src="carrito.js"></script>
+</body>
+</html>
