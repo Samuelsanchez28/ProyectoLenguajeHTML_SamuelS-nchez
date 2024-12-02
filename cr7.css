@@ -46,7 +46,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #ddb0b0;
+    color: #ffffff;
     text-decoration: none;
     font-size: 1.2rem;
 }
@@ -135,7 +135,7 @@ nav ul li a:hover {
 body {
     background-color: #ffffff; 
     font-family: Arial, sans-serif;
-    color: #333;
+    color: #000000;
     margin: 0;
     padding: 0;
     text-align: center; 
