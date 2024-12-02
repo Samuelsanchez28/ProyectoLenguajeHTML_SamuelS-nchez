@@ -1,457 +1,11 @@
 /* Reset básico */
-*{
-    margin: 0vh;
-    padding: 0vh;
-    box-sizing: content-box ;
-}
-
-body {
-    font-family: 'Arial', sans-serif;
-    line-height: 1.6;
-    background-color: #000000;
-    color: #000000;
-}
-
-/* Header con botones de navegación */
-header {
-    
-    background-color: #000;
-    color: #fff;
-    padding: 2vh;
-    position:absolute;
-    top: 0vh;
-    left: 0vh;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 1000;
-}
-
-header h1 {
-    font-size: 2rem;
-    font-weight: bold;
-    margin-left: 0vh;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-    margin-right: 3rem;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0px;
-}
-
-nav ul li a {
-    color: #ffffff;
-    text-decoration: none;
-    font-size: 1.2rem;
-}
-
-nav ul li a:hover {
-    color: #ffc400;
-}
-
-/* Portada */
-.portada {
-    background-image: url('https://images.ecestaticos.com/nllIBurR7zeMDjwghRIGkzX8tlE=/0x154:2271x1433/1600x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F5c3%2F680%2Fd14%2F5c3680d143e0375062f8a8de42185794.jpg'); /* Reemplaza con la imagen de la portada */
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    width: 680vh;
-    margin: 0%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    position: relative;
-}
-
-.portada-content {
-    color: #fff;
-    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
-}
-
-.portada h2 {
-    font-size: 4rem;
-    margin-bottom: 20px;
-}
-
-.portada p {
-    font-size: 1.5rem;
-    margin-bottom: 20px;
-}
-
-
-  body {
-    height: 100%;
-    margin: 0vh;
-    background: #162944;
-  }
-.boton-portada:hover {
-    color: #000000;
-    background-color: rgb(190, 202, 16);
-    border: 2px solid rgb(213, 228, 13);
-    border-radius: 0px;
-    padding: 18px 36px;
-    display: inline-block;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 17px;
-    letter-spacing: 4px;
-    cursor: pointer;
-    box-shadow: inset 0 0 0 0 #D80286;
-    -webkit-transition: ease-out 0.4s;
-    -moz-transition: ease-out 0.4s;
-    transition: ease-out 0.4s;
-  }
-  
-
-/* Hero */
-.hero {
-    background-image: url('https://www.google.es/url?sa=i&url=https%3A%2F%2Fwww.tudn.com%2Ffutbol%2Fpara-los-libros-cr7-rompio-dos-records-ante-luxemburgo-video&psig=AOvVaw2QWMJMmbNgwV27JpcEu-tU&ust=1732141046009000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKiWzrW26YkDFQAAAAAdAAAAABAE'); /* Imagen del banner de la tienda */
-    background-size: cover;
-    background-position: center;
-    padding: 100px 0;
-    text-align: center;
-    color: #fff;
-    margin-top: 70px; /* Espacio para el header */
-}
-
-.hero h2 {
-    font-size: 3rem;
-    margin-bottom: 1rem;
-}
-
-.hero p {
-    font-size: 1.5rem;
-}
-
-/* Productos */
-/* Estilo general */
-body {
-    background-color: #ffffff; 
-    font-family: Arial, sans-serif;
-    color: #000000;
-    margin: 0;
-    padding: 0;
-    text-align: center; 
-}
-
-header {
-    margin: 0;
-}
-
-h1 {
-    font-size: 36px;
-    font-weight: bold;
-    color: #444;
-}
-
-p {
-    font-size: 18px;
-    color: #666;
-}
-
-
-.products {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
-    gap: 70px; 
-    padding: 150px;
-    max-width: 1100px;
-    margin: 130px auto; 
-    text-align: center;
-}
-
-
-.product-button {
-    text-decoration: firebrick; 
-    color: black; 
-    display: block;
-    border-radius: 10px; 
-    overflow: hidden; 
-    box-shadow: 4px 6px rgba(0, 0, 0, 0.1); 
-    transition: transform 0.3s ease, box-shadow 0.3s ease; 
-    background-color: #f9f9f9;
-}
-
-.product-button:hover {
-    transform: scale(1.05); 
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); 
-    border: 2px; #000;
-}
-
-
-.product-image {
-    width: 100%; 
-    height: 250px; 
-    object-fit: cover; 
-    border-bottom: 6px solid #0c0c0c;
-    border: 2px; #000; 
-}
-
-
-.product-button p {
-    margin: 20px 0 0;
-    font-size: 18px;
-    font-weight: bold;
-    color: #444;
-    border: 7px; #000;
-}
-
-
-@media (max-width: 768px) {
-    .product-button p {
-        font-size: 16px;
-    }
-    .product-image {
-        height: 200px; 
-    }
-}
-
-
-/* Contacto */
-.contacto {
-    padding: 20%;
-    background-color: #f4f4f4;
-    text-align: center;
-}
-
-.contacto h2 {
-    font-size: 7rem;
-    margin-bottom: 2.9rem;
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-form label {
-    margin-top: 10px;
-    font-size: 1rem;
-}
-
-form input, form textarea {
-    width: 80%;
-    padding: 0.5%;
-    margin-top: 5px;
-    border: 2px solid #ccc
-}
-
-redessociale
-/* Sección de redes sociales */
-*,
-*::after,
-*::before{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body{
-    height: 90vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-ul{
-    display: flex;
-    list-style: none;
-    gap: 2.5rem;
-}
-
-.item a{
-    text-decoration: none;
-    width: 6.8rem;
-    height: 4.8rem;
-    background-color: #f0faff;
-    border-radius: 90%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    z-index: 1;
-    border: 3px solid #f0faff;
-    overflow: hidden;
-}
-
-.item a::before{
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    z-index: 0;
-    scale: 1 0;
-    transform-origin: bottom;
-    transition: scale 0.5s ease;
-    background: var(--bg-color);
-}
-
-.item:hover a::before{
-    scale: 1 1;
-}
-
-.icon {
-    font-size: 2rem;
-    color: #031926;
-    transition: 0.5s ease;
-    z-index: 2;
-}
-
-.item a:hover .icon{
-    color: #f0faff;
-    transform: rotateX(360deg) scale(1.30);
-}
-
-.item:nth-child(1){
-    --bg-color: linear-gradient(to bottom right, #f9ce34, #ee2a7b, #6228d7);
-}
-
-.item:nth-child(2){
-    --bg-color: #095cf5;
-}
-
-.item:nth-child(3){
-    --bg-color: #ff0000;
-}
-
-.item:nth-child(4){
-    --bg-color: #000;
-}
-
-/* Estilo general para la página del carrito */
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f9f9f9;
-    color: #333;
-    margin: 0;
-    padding: 0;
-}
-
-header {
-    background-color: #000;
-    color: #fff;
-    padding: 1rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-header h1 {
-    margin-left: 1rem;
-    font-size: 1.8rem;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-}
-
-nav ul li {
-    margin-right: 20px;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-}
-
-nav ul li a:hover,{
-    color: #ffc400;
-}
-
-.carrito {
-    padding: 50px;
-    max-width: 1000px;
-    margin: 0 auto;
-}
-
-h2 {
-    text-align: center;
-    margin-bottom: 30px;
-    font-size: 2.5rem;
-}
-
-.tabla-carrito {
-    width: 100%;
-    border-collapse: collapse;
-    margin-bottom: 30px;
-}
-
-.tabla-carrito th,
-.tabla-carrito td {
-    padding: 15px;
-    text-align: center;
-    border-bottom: 1px solid #ddd;
-}
-
-.tabla-carrito th {
-    background-color: #000000;
-    color: white;
-}
-
-.tabla-carrito td button {
-    padding: 8px 12px;
-    background-color: #f44336;
-    color: white;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-}
-
-.tabla-carrito td button:hover {
-    background-color: #d32f2f;
-}
-
-.resumen-carrito {
-    text-align: right;
-    margin-top: 20px;
-}
-
-.resumen-carrito p {
-    font-size: 1.5rem;
-    margin-bottom: 20px;
-}
-
-.btn-comprar {
-    padding: 10px 30px;
-    background-color: #162944;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 1.2rem;
-}
-
-.btn-comprar:hover {
-    background-color: #ffc400;
-    color: #162944;
-}
-
-footer {
-    background-color: #000;
-    color: white;
-    text-align: center;
-    padding: 20px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-
-/* Reset básico */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Estilo general */
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
@@ -503,106 +57,618 @@ nav ul li a:hover {
     color: #ffc400;
 }
 
-/* Sección de productos */
-.product-detail {
-    max-width: 800px;
-    margin: 120px auto 0;
-    padding: 20px;
+/* Portada */
+.portada {
+    background-image: url('https://images.ecestaticos.com/nllIBurR7zeMDjwghRIGkzX8tlE=/0x154:2271x1433/1600x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F5c3%2F680%2Fd14%2F5c3680d143e0375062f8a8de42185794.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    background-color: #fff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
 }
 
-.product-detail h2 {
-    font-size: 2.5rem;
+.portada-content {
+    color: #fff;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+.portada h2 {
+    font-size: 4rem;
     margin-bottom: 20px;
 }
 
-.product-detail img {
+.portada p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.boton-portada:hover {
+    color: #000000;
+    background-color: rgb(190, 202, 16);
+    border: 2px solid rgb(213, 228, 13);
+    padding: 18px 36px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 17px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #D80286;
+    transition: ease-out 0.4s;
+}
+
+/* Hero */
+.hero {
+    background-image: url('https://www.google.es/url?sa=i&url=https%3A%2F%2Fwww.tudn.com%2Ffutbol%2Fpara-los-libros-cr7-rompio-dos-records-ante-luxemburgo-video');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+    margin-top: 70px;
+}
+
+.hero h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.5rem;
+}
+
+/* Productos */
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 40px;
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 80px; 
+}
+
+
+.product-button {
+    text-decoration: none;
+    color: black;
+    display: block;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    cursor: pointer;
+}
+
+.product-button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Imagenes de productos */
+.product-image {
+    width: 100%; 
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+
+/* Botón de "Añadir al carrito" */
+.product-button {
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff; 
+    padding: 12px 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 8px;
+    text-transform: uppercase; 
+    display: inline-block;
+    width: 100%; 
+    margin-top: 15px; 
+    text-align: center; 
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+}
+
+.product-button:hover {
+    background-color: #0056b3;
+    transform: translateY(-3px);
+}
+
+.product-button:active {
+    transform: translateY(2px);
+}
+
+
+/* Modal */
+.modal {
+    display: flex;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.modal-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 600px;
+    position: relative;
+}
+
+.modal-image {
     width: 100%;
     height: auto;
-    max-width: 200px;
-    margin: 20px 0;
     border-radius: 10px;
+    margin-bottom: 15px;
 }
 
-.product-detail p {
+.modal h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.modal p {
     font-size: 1.2rem;
     margin-bottom: 20px;
-    line-height: 1.5;
 }
 
-.product-detail button.add-to-cart {
+.btn-add-to-cart {
+    background-color: #000;
+    color: white;
+    border: none;
     padding: 10px 20px;
+    cursor: pointer;
     font-size: 1.1rem;
-    background-color: #007bff;
+    border-radius: 5px;
+}
+
+.btn-add-to-cart:hover {
+    background-color: #444;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 30px;
+    color: #000;
+    cursor: pointer;
+}
+
+/* Animaciones */
+.modal-content {
+    animation: fadeIn 0.3s ease-out;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+
+/* Contacto */
+.contacto {
+    padding: 20%;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.contacto form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contacto input,
+.contacto textarea {
+    width: 80%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contacto button {
+    padding: 10px 20px;
+    background-color: #000;
     color: #fff;
     border: none;
-    border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    border-radius: 5px;
 }
 
-.product-detail button.add-to-cart:hover {
-    background-color: #0056b3;
+.contacto button:hover {
+    background-color: #444;
+}
+
+
+/* Carrito */
+.carrito {
+    padding: 20%;
+    background-color: #fff;
+    text-align: center;
+}
+
+.tabla-carrito {
+    width: 100%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+.tabla-carrito th, .tabla-carrito td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.resumen-carrito {
+    margin-top: 20px;
 }
 
 /* Footer */
 footer {
-    background-color: #333;
-    color: #fff;
+    background-color: #232323;
+    color: white;
     text-align: center;
-    padding: 1rem;
-    margin-top: 40px;
+    padding: 10px;
+    margin-top: 30px;
 }
 
 footer p {
-    font-size: 1rem;
+    font-size: 14px;
 }
 
-/* Estilo de botones */
-.add-to-cart {
-    padding: 15px 25px;
+/* Estilo general para la sección de noticias */
+.news-section {
+    padding: 80px 40px;
+    background-color: #f4f4f4; /* Fondo gris claro */
+    margin-top: 80px; /* Para evitar que choque con la cabecera */
+}
+
+.news-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.news-header h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.news-header p {
     font-size: 1.2rem;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-    transition: all 0.3s ease;
+    color: #666;
 }
 
-.add-to-cart:hover {
-    background-color: #0056b3;
+.news-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
 }
 
-/* Estilo para enlaces */
-a {
-    text-decoration: none;
+.news-item:hover {
+    transform: translateY(-5px); /* Efecto de elevación al pasar el mouse */
+}
+
+.news-image {
+    width: 40%; /* Toma el 40% del espacio */
+    height: auto;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.news-content {
+    padding: 20px;
+    width: 60%; /* El contenido ocupa el 60% restante */
+}
+
+.news-item h3 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.news-item .date {
+    font-size: 1rem;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.news-item p {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.read-more {
+    font-weight: bold;
     color: #007bff;
+    text-decoration: none;
+}
+
+.read-more:hover {
+    text-decoration: underline;
+}
+
+/* Hacer que la sección sea responsive */
+@media (max-width: 768px) {
+    .news-item {
+        flex-direction: column;
+    }
+
+    .news-image {
+        width: 100%; /* La imagen ocupa todo el ancho */
+        height: 250px;
+    }
+
+    .news-content {
+        width: 100%; /* El contenido ocupa todo el ancho */
+    }
+}
+
+Historia.
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Cabecera */
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 2vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+
+header h1 {
+    font-size: 2rem;
     font-weight: bold;
 }
 
-a:hover {
-    color: #0056b3;
+nav ul {
+    list-style: none;
+    padding: 0;
 }
 
-/* Responsive Design */
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+nav ul li a:hover {
+    color: #ffc400;
+}
+
+/* Sección de Introducción */
+/* Sección de Historia */
+.section-historia {
+    padding: 80px 20px;
+    background-color: #f9f9f9;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.section-historia h2 {
+    font-size: 2.8rem;
+    color: #333;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.introduccion {
+    font-size: 1.4rem;
+    color: #555;
+    line-height: 1.8;
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    font-weight: 300;
+    letter-spacing: 0.5px;
+}
+
+.historia-container {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.historia-container p {
+    font-size: 1.3rem;
+    color: #444;
+    line-height: 1.7;
+    margin-top: 20px;
+    text-align: justify;
+    font-weight: 400;
+}
+
 @media (max-width: 768px) {
-    .product-detail {
+    .section-historia h2 {
+        font-size: 2.2rem;
+    }
+
+    .introduccion {
+        font-size: 1.2rem;
         padding: 15px;
     }
 
-    .product-detail h2 {
-        font-size: 2rem;
+    .historia-container p {
+        font-size: 1.1rem;
     }
+}
 
-    .product-detail p {
-        font-size: 1rem;
-    }
 
-    .product-detail button.add-to-cart {
-        font-size: 1rem;
-        padding: 8px 15px;
+/* Sección de Cronología */
+.section-cronologia {
+    padding: 80px 0;
+    background-color: #f9f9f9;
+}
+
+.timeline {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.timeline-event {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.timeline-event h3 {
+    font-size: 1.5rem;
+    color: #222;
+}
+
+.timeline-event p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Sección de Logros */
+.section-logros {
+    padding: 80px 20px;
+    background-color: #fff;
+    margin-top: 50px;  /* Espacio arriba de la sección */
+}
+
+.section-logros h2 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+    text-align: center;
+    color: #333;
+}
+
+.logros-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.logros-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+    text-align: left;
+}
+
+.logros-table th,
+.logros-table td {
+    padding: 15px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+}
+
+.logros-table th {
+    background-color: #162944;
+    color: #fff;
+    font-weight: bold;
+}
+
+.logros-table td {
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.logros-table tr:nth-child(even) td {
+    background-color: #f1f1f1;
+}
+
+.logros-table tr:hover {
+    background-color: #e2e2e2;
+}
+
+@media (max-width: 768px) {
+    .logros-table th,
+    .logros-table td {
+        padding: 10px;
+        font-size: 0.9rem;
     }
+}
+
+
+/* Sección de Galería */
+.section-galeria {
+    padding: 80px 0;
+    background-color: #f9f9f9;
+}
+
+.galeria {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.galeria-item {
+    flex: 1 1 calc(33% - 20px);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.galeria-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Footer */
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
 }
