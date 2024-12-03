@@ -327,40 +327,132 @@ button:hover {
 
 
 
-/* Carrito */
-.carrito {
-    padding: 20%;
+/* Estilos para la sección del carrito */
+.cart-section {
+    background-color: #f4f4f4;
+    padding: 40px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 40px 0;
+}
+
+.cart-section h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.cart-section p {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+/* Tabla del carrito */
+/* Estilos para la sección del carrito */
+.cart-section {
+    background-color: #f4f4f4;
+    padding: 30px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 30px 0;
+}
+
+.cart-section h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.cart-section p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* Tabla del carrito */
+.cart-container {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: left;
     background-color: #fff;
-    text-align: center;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.tabla-carrito {
+.cart-table {
     width: 100%;
-    margin: 20px auto;
     border-collapse: collapse;
+    margin-bottom: 15px;
 }
 
-.tabla-carrito th, .tabla-carrito td {
-    padding: 10px;
-    border: 1px solid #ccc;
+.cart-table th,
+.cart-table td {
+    padding: 10px 12px;
+    border-bottom: 1px solid #ddd;
 }
 
-.resumen-carrito {
-    margin-top: 20px;
-}
-
-/* Footer */
-footer {
-    background-color: #232323;
+.cart-table th {
+    background-color: #007bff;
     color: white;
-    text-align: center;
-    padding: 10px;
-    margin-top: 30px;
+    font-size: 0.95rem;
 }
 
-footer p {
-    font-size: 14px;
+.cart-table td {
+    font-size: 0.95rem;
+    color: #333;
 }
+
+.cart-table .remove-btn {
+    padding: 4px 8px;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.85rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cart-table .remove-btn:hover {
+    background-color: #d93636;
+}
+
+/* Resumen del carrito */
+.cart-summary {
+    text-align: right;
+    font-size: 1rem;
+}
+
+.cart-summary h3 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.cart-summary span {
+    color: #007bff;
+    font-weight: bold;
+}
+
+.checkout-btn {
+    padding: 8px 16px;
+    height: 50px; /* Reducir el tamaño del botón */
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.9rem; /* Reducir el tamaño de la fuente */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.checkout-btn:hover {
+    background-color: #218838;
+}
+
 
 /* Estilo general para la sección de noticias */
 .news-section {
@@ -698,4 +790,58 @@ footer {
     color: #fff;
     padding: 20px 0;
     text-align: center;
+}
+
+/* Estilos para la sección de palmarés */
+.palmares-section {
+    background-color: #f4f4f4;
+    padding: 40px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 40px 0;
+}
+
+.palmares-section h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 10px;
+    margin-top: 60px; /* Añadido para separar más el título de la cabecera */
+}
+
+.palmares-section p {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.palmares-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.palmar-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.palmar-item:hover {
+    transform: translateY(-5px);
+}
+
+.palmar-item h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.palmar-item p {
+    font-size: 1rem;
+    color: #555;
 }

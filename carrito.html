@@ -17,50 +17,53 @@
                 <li><a href="carrito.html" class="active">Carrito</a></li>
                 <li><a href="Noticias.html">Noticias</a></li>
                 <li><a href="Historia.html">Historia</a></li>
+                <li><a href="Palmarés.html">Palmarés</a></li>
+
 
                 
             </ul>
         </nav>
     </header>
 
-    <section class="carrito">
-        <h2>Tu Carrito de Compras</h2>
-
-        <table class="tabla-carrito">
-            <thead>
-                <tr>
-                    <th>Producto</th>
-                    <th>Precio</th>
-                    <th>Cantidad</th>
-                    <th>Subtotal</th>
-                    <th>Eliminar</th>
-                </tr>
-            </thead>
-            <tbody id="productos-carrito">
+    <section id="cart" class="cart-section">
+        <h2> </h2>
+        
+        <div class="cart-container">
+            <table class="cart-table">
+                <thead>
+                    <tr>
+                        <th>Producto</th>
+                        <th>Cantidad</th>
+                        <th>Precio</th>
+                        <th>Total</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Camiseta Manchester United</td>
+                        <td>1</td>
+                        <td>$90.00</td>
+                        <td>$90.00</td>
+                        <td><button class="remove-btn">Eliminar</button></td>
+                    </tr>
+                    <tr>
+                        <td>Camiseta Real Madrid</td>
+                        <td>2</td>
+                        <td>$100.00</td>
+                        <td>$200.00</td>
+                        <td><button class="remove-btn">Eliminar</button></td>
+                    </tr>
+                </tbody>
+            </table>
     
-                <tr>
-                    <td>Camiseta Ronaldo Real Madrid 2018</td>
-                    <td>$99.99</td>
-                    <td>1</td>
-                    <td>$99.99</td>
-                    <td><button class="btn-eliminar">Eliminar</button></td>
-                </tr>
-                <tr>
-                    <td>Camiseta Ronaldo Manchester United 2008</td>
-                    <td>92,99€</td>
-                    <td>1</td>
-                    <td>92,99€</td>
-                    <td><button class="btn-eliminar">Eliminar</button></td>
-                </tr>
-            </tbody>
-        </table>
-
-        <div class="resumen-carrito">
-            <p><strong>Total:</strong> 192,98€</p>
-            <button class="btn-comprar">Comprar Ahora</button>
+            <div class="cart-summary">
+                <h3>Total: <span>$290.00</span></h3>
+                <button class="checkout-btn">Finalizar Compra</button>
+            </div>
         </div>
     </section>
-
+    
     <footer>
         <p>&copy; 2024 CR7 Market. Todos los derechos reservados.</p>
     </footer>
