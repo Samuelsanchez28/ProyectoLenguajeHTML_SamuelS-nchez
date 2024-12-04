@@ -119,7 +119,7 @@ nav ul li a:hover {
 }
 
 /* Productos */
-/* Estilos generales */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -156,14 +156,14 @@ h1 {
 
 .team-buttons {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Aumento aún más el tamaño de los botones */
-    gap: 20px; /* Un poco más de espacio entre los botones */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+    gap: 20px; 
     margin-top: 20px;
 }
 
 button {
-    padding: 15px; /* Aumentar padding para mayor espacio */
-    font-size: 1.1rem; /* Aumentar el tamaño del texto */
+    padding: 15px; 
+    font-size: 1.1rem; 
     background-color: #007bff;
     color: white;
     border: none;
@@ -176,12 +176,11 @@ button {
     gap: 10px;
     transition: background-color 0.3s ease;
     width: 100%;
-    height: 220px;  /* Aumentar más la altura de los botones */
+    height: 220px; 
 }
 
 button img {
-    width: 80px; /* Aumento el tamaño de las imágenes */
-    height: 80px;
+    width: 100px; 
     object-fit: contain;
 }
 
@@ -200,7 +199,7 @@ button:hover {
     justify-content: center;
     align-items: center;
     margin-top: 30px;
-    display: none; /* Ocultar inicialmente */
+    display: none; 
 }
 
 .shirt {
@@ -209,23 +208,23 @@ button:hover {
     padding: 25px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
-    width: 300px;  /* Aumento el ancho de la camiseta */
+    width: 300px; 
 }
 
 .shirt img {
     width: 100%;
-    max-width: 300px;  /* Aumento aún más el tamaño de la camiseta */
+    max-width: 300px;  
     height: auto;
     border-radius: 8px;
 }
 
 .shirt h3 {
-    font-size: 1.4rem;  /* Aumento el tamaño del título */
+    font-size: 1.4rem;  
     margin-top: 10px;
 }
 
 .shirt p {
-    font-size: 1.2rem;  /* Aumento el tamaño del texto */
+    font-size: 1.2rem;  
     margin-top: 10px;
 }
 
@@ -244,6 +243,7 @@ button:hover {
 .buy-button:hover {
     background-color: #218838;
 }
+
 
 
 /* Estilos generales para la sección de contacto */
@@ -306,13 +306,13 @@ button:hover {
 }
 
 .contact-form button {
-    padding: 8px 10px; /* Hacer más pequeño el botón */
+    padding: 8px 10px; 
     height: 1%;
     background-color: #007bff;
     color: white;
     border: none;
     border-radius: 5px;
-    font-size: 2rem;  /* Ajustar el tamaño del texto */
+    font-size: 2rem;  
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
@@ -357,8 +357,9 @@ button:hover {
     text-align: center;
     border-radius: 8px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    margin: 30px 0;
+    margin: 90px auto 0px; 
 }
+
 
 .cart-section h2 {
     font-size: 1.8rem;
@@ -374,19 +375,17 @@ button:hover {
 
 /* Tabla del carrito */
 .cart-container {
-    max-width: 900px;
+    max-width: 960px;
     margin: 0 auto;
     text-align: left;
-    background-color: #fff;
-    padding: 15px;
+    padding: 100px;
     border-radius: 8px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .cart-table {
     width: 100%;
     border-collapse: collapse;
-    margin-bottom: 15px;
+    margin-bottom: 120px;
 }
 
 .cart-table th,
@@ -407,12 +406,13 @@ button:hover {
 }
 
 .cart-table .remove-btn {
-    padding: 4px 8px;
+    padding: ;
+    height: 0px;
     background-color: #ff4d4d;
     color: white;
     border: none;
-    border-radius: 5px;
-    font-size: 0.85rem;
+    border-radius: 7px;
+    font-size: 0.65rem;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
@@ -438,13 +438,13 @@ button:hover {
 }
 
 .checkout-btn {
-    padding: 8px 16px;
-    height: 50px; /* Reducir el tamaño del botón */
+    padding: 9px 16px;
+    height: 50px; 
     background-color: #28a745;
     color: white;
     border: none;
     border-radius: 5px;
-    font-size: 0.9rem; /* Reducir el tamaño de la fuente */
+    font-size: 0.9rem;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
@@ -453,12 +453,12 @@ button:hover {
     background-color: #218838;
 }
 
+/*Noticias*/
 
-/* Estilo general para la sección de noticias */
 .news-section {
     padding: 80px 40px;
-    background-color: #f4f4f4; /* Fondo gris claro */
-    margin-top: 80px; /* Para evitar que choque con la cabecera */
+    background-color: #f4f4f4; 
+    margin-top: 80px; 
 }
 
 .news-header {
@@ -490,11 +490,11 @@ button:hover {
 }
 
 .news-item:hover {
-    transform: translateY(-5px); /* Efecto de elevación al pasar el mouse */
+    transform: translateY(-5px); 
 }
 
 .news-image {
-    width: 40%; /* Toma el 40% del espacio */
+    width: 40%; 
     height: auto;
     object-fit: cover;
     border-top-left-radius: 10px;
@@ -503,7 +503,7 @@ button:hover {
 
 .news-content {
     padding: 20px;
-    width: 60%; /* El contenido ocupa el 60% restante */
+    width: 60%; 
 }
 
 .news-item h3 {
@@ -536,23 +536,23 @@ button:hover {
     text-decoration: underline;
 }
 
-/* Hacer que la sección sea responsive */
+
 @media (max-width: 768px) {
     .news-item {
         flex-direction: column;
     }
 
     .news-image {
-        width: 100%; /* La imagen ocupa todo el ancho */
+        width: 100%; 
         height: 250px;
     }
 
     .news-content {
-        width: 100%; /* El contenido ocupa todo el ancho */
+        width: 100%; 
     }
 }
 
-Historia.
+/*Historia*/
 
 /* Reset básico */
 * {
@@ -563,7 +563,6 @@ Historia.
 
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f4f4f4;
     color: #333;
 }
 
@@ -701,7 +700,7 @@ nav ul li a:hover {
 .section-logros {
     padding: 80px 20px;
     background-color: #fff;
-    margin-top: 50px;  /* Espacio arriba de la sección */
+    margin-top: 50px;  
 }
 
 .section-logros h2 {
@@ -792,9 +791,8 @@ footer {
     text-align: center;
 }
 
-/* Estilos para la sección de palmarés */
+/*palmarés */
 .palmares-section {
-    background-color: #f4f4f4;
     padding: 40px;
     text-align: center;
     border-radius: 8px;
@@ -806,7 +804,7 @@ footer {
     font-size: 2rem;
     color: #333;
     margin-bottom: 10px;
-    margin-top: 60px; /* Añadido para separar más el título de la cabecera */
+    margin-top: 60px; 
 }
 
 .palmares-section p {
