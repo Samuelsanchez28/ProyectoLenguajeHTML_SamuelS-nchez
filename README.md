@@ -2,6 +2,7 @@
 
 Documentación del Proyecto Web: CR7 MARKET
 
+**Video**: https://drive.google.com/file/d/1BBCTNF6x5ZdHLAdXsNOVbrwYBw_3-zz6/view?usp=drive_link
 
 1. Descripción del proyecto
 
