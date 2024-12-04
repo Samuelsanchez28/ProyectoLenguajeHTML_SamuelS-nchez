@@ -1,4 +1,4 @@
-# ProyectoLenguajeHTML_SamuelS-nchez
+# ProyectoLenguajeHTML_SamuelSánchez
 
 Documentación del Proyecto Web: CR7 MARKET
 
